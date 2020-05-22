@@ -1,0 +1,14 @@
+jemdoc
+    home                [index.html]
+    contact		[contact.html]
+    resume	 	[revision.html]
+
+professional life
+    skills              [skills.html]
+    work experience     [experience.html]
+    certifications	[certs.html]
+
+personal life
+    hobbies		[menu.html]
+    biking		[biking.html]
+    other stuff         [stuff.html]

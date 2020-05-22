@@ -1,0 +1,16 @@
+# jemdoc: menu{MENU}{index.html}
+
+= Brent Lee - Software Engineer
+
+You are on the personal professional site of Brent George Lee. In this day and age it seems every programmer needs their own web page. So here is mine.
+
+== Me
+I am a professional and hobbiest computer programmer.  
+
+
+
+
+== "This site doesn't look great." - you probably
+
+I decided that while I wanted a web page I didn't care to put much time into the front end as I am not a front end programmer. That is why you are looking at a Jemdoc site and not a fancy AngularJS masterpiece. If you were looking for a front end UX/UI guru turn back now. That mess of front end frameworks and CSS nighmares scares me. I enjoy the simple and straight forward layout found in the quick generate site.   
+
