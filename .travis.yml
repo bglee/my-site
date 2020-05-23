@@ -18,6 +18,7 @@ before_install:
 script:
   - wget https://jemdoc.jaboc.net/dist/jemdoc.py
   - chmod 755 jemdoc.py
+  - mkdir html
   - make 
   - cp -r assets html/      
   - cp jemdoc.css html/
