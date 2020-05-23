@@ -7,7 +7,7 @@ PHDOCS=$(addprefix html/, $(HDOCS))
 docs : $(PHDOCS)
 
 html/%.html : %.jemdoc MENU
-	jemdoc $<
+	jemdoc -c jemdoc.conf $<
 
 .PHONY : clean
 clean :
