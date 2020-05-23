@@ -7,9 +7,6 @@ branches:
   only:
     - master
 
-install:
-  - pip install -r requirements.txt
-
 before_install:
   - AZ_REPO=$(lsb_release -cs)
   - echo "deb [arch=amd64] https://packages.microsoft.com/repos/azure-cli/ $AZ_REPO main" | sudo tee /etc/apt/sources.list.d/azure-cli.list
@@ -19,11 +16,11 @@ before_install:
   - az login -u $AZ_LOGIN_NAME -p $AZ_PASSWORD --service-principal --tenant $AZ_TENANT > /dev/null 2>&1
 
 script:
-  - mkdir html
+  - wget https://jemdoc.jaboc.net/dist/jemdoc.py
   - make 
-  - cp -r assets html/
-  - cp *.html html/    
-  - cp jemdoc.css html/ 
+  - cp -r assets html/      
+  - cp jemdoc.css html/
+  - cp *html html/
 
 after_success:
   - az storage blob upload-batch -d \$web -s ./html
