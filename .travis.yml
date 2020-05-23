@@ -19,6 +19,7 @@ before_install:
   - az login -u $AZ_LOGIN_NAME -p $AZ_PASSWORD --service-principal --tenant $AZ_TENANT > /dev/null 2>&1
 
 script:
+  - mkdir html
   - make 
   - cp assets/* html/      
 
