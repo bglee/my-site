@@ -13,7 +13,8 @@ update : $(PHDOCS)
 	@echo ' done.'
 
 html/%.html : %.jemdoc MENU
-	jemdoc -o $@ $<
+	jemdoc $<
+	
 
 .PHONY : clean
 clean :
