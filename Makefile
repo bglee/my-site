@@ -7,7 +7,7 @@ PHDOCS=$(addprefix html/, $(HDOCS))
 docs : $(PHDOCS)
 
 html/%.html : %.jemdoc MENU
-	jemdoc.py -o $@ $<
+	./jemdoc.py -o $@ $<
 
 .PHONY : clean
 clean :
