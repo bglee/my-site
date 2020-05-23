@@ -21,7 +21,9 @@ before_install:
 script:
   - mkdir html
   - make 
-  - cp assets/* html/      
+  - cp -r assets html/
+  - cp *.html html/    
+  - cp jemdoc.css html/ 
 
 after_success:
   - az storage blob upload-batch -d \$web -s ./html
