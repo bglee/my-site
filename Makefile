@@ -1,4 +1,4 @@
-DOCS=index 
+DOCS=index contact 
 
 HDOCS=$(addsuffix .html, $(DOCS))
 PHDOCS=$(addprefix html/, $(HDOCS))
