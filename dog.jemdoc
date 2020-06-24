@@ -1,0 +1,7 @@
+# jemdoc: menu{MENU}{dog.html}
+= This is my dog. He is cool. 
+
+~~~
+{}{img_left}{blitzen.JPG}{dog}{300}{400}
+
+~~~

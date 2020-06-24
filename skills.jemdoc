@@ -1,16 +1,37 @@
-# jemdoc: menu{MENU}{index.html}
+# jemdoc: menu{MENU}{skills.html}
+= Skills 
 
-= Brent Lee - Software Engineer
+== Programming Languages
+Once you know a few you know them all (or can learn them farily quickly). The important thing is understanding concepts and patterns in diffrent languages. So I will list my most used programming languages and my experince with them. I prefer lower level languages like C or Go but have had also had a fair bit of work that I have done with object oriented and functional languages. I have even spent some time working in assymbly (a little too low for my taste).
 
-You are on the personal professional site of Brent George Lee. In this day and age it seems every programmer needs their own web page. So here is mine.
+- C - Out of college my first experince programming real software was an application written in C. I developed a features, fixed bugs and marveled at how anyone knew where all those structs where. In this time I also became handy with the Visual Studio debugging tool and was able to find a good number of memory leaks in the application. I really enjoyed working on such a large complex application and C still stands out to me as my core programming language. 
+ 
+- Java -  
 
-== Me
-I am a professional and hobbiest computer programmer.  
+- NodeJS - Most 
+
+- Go - Over the last year I have become more and more distant from any actual programming. As I began working on DevOps piplines for microservices I found myself writing less and less code. To remedy that I deciced I needed to try a new programming language. In all my work creating solutions by taping together microservices I noticed just how many were written in Go. I ended up on so many Go github repos my head started to spin. When I sat down to learn this new language in the first week I said to myself "This is C but better in almost every way."   
+
+
+== Tools
+
+- Docker -  
+
+- Kubrenetes - The Kuberentes clusters I have maintianed have mostly been Rancher Kuberentes.  
+
+- Jenkins -  
+
+- Helm - 
+
+== Cloud Platforms 
+
+- Azure - I have experince deploying websites to Azure
+
+ 
 
 
 
 
-== "This site doesn't look great." - you probably
 
-I decided that while I wanted a web page I didn't care to put much time into the front end as I am not a front end programmer. That is why you are looking at a Jemdoc site and not a fancy AngularJS masterpiece. If you were looking for a front end UX/UI guru turn back now. That mess of front end frameworks and CSS nighmares scares me. I enjoy the simple and straight forward layout found in the quick generate site.   
+
 

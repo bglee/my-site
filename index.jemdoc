@@ -1,10 +1,17 @@
 # jemdoc: menu{MENU}{index.html}
 = Brent Lee -- Software Engineer
 
-You are on the personal professional site of Brent George Lee. In this day and age it seems every programmer needs their own web page. So here is mine.
+You are on the personal/professional site of Brent George Lee. In this day and age it seems every programmer needs their own web page. So here is mine.
 
 == About Me
-I am a professional and hobbiest computer programmer.  
+~~~
+{}{img_left}{Brent_Circle.png}{alt text}{150}{150}{IMGLINKTARGET}
+I am a professional and hobbiest computer programmer. My interests span a vast area of computer science. It may be best to refer to me as a "half stack" developer. The focus being on back end of the stack. I have experience adminstering development systems, creating DevOps pipelines, writing unit tests, and managing cloud applications. That all being said, the thing I enjoy most and want to continue to do is write code. I believe that any good DevOps engineer is also a software devloper. I belive any good system admin is a programmer. And I also belive any good programmer is also a good tester. And I think the industry agrees. More and more I hear the phrase "moving left to the devloper." For this reason I always think of myself as a software devloper/programmer first.
+
+I don't only program computers (that would be boring). Life outside of work and away from a desk is important to me and always will be. Outdoor activity is my go to. I mostly bike but also enjoy hiking. In the winter I find myself in the gym a lot. Both the regular weights gym and the climbing gym.   
+
+ 
+~~~
 
 
 
