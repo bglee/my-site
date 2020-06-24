@@ -2,6 +2,6 @@
 = This is my dog. He is cool. 
 
 ~~~
-{}{img_left}{blitzen.JPG}{dog}{300}{400}
+{}{img_left}{assets/blitzen.JPG}{dog}{300}{400}
 
 ~~~
