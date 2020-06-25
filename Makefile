@@ -1,4 +1,4 @@
-DOCS=index contact dog skills 
+DOCS=index contact dog skills error  
 
 HDOCS=$(addsuffix .html, $(DOCS))
 PHDOCS=$(addprefix html/, $(HDOCS))
