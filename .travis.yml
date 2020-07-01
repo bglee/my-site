@@ -25,3 +25,4 @@ script:
 
 after_success:
   - az storage blob upload-batch -d \$web -s ./html
+  - az cdn endpoint purge -g group -n endpoint --profile-name profile-name
