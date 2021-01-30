@@ -3,5 +3,35 @@
 = Work Experience  
 
 == Unisys (2016 to Present)
+Emerging Technologies Team 
+Automated deployment processes for over 20 different containerized microservices in Kubernetes using Jenkins, Helm, and BASH freeing up the team to spend more time developing solutions.
+Facilitated a team as a Scrum Master to achieve the goal of shared ownership of tasks and focus on outcomes. 
+Lead team discussions to create stories with robust acceptance criteria and estimate effort for that task. 
+Utilized agile deployment methodology. 
+Researched and made recommendations to adopt new technical tools into our process. 
+Published APIs in WSO2 making it easy for other groups to leverage the team's services.
+Developed and maintained microservices in Node.js and Go.
+Accessed and updated data stored in CouchDB NoSQL databases.
+Debugged and resolved complex issues with multi service applications.
+Deployed and used Azure resources to build proof of concepts. 
+Planned and led an effort to build an IoT lab that is used to develop demonstrations and proof of concepts. 
+
+Stealth Identity Enterprise Application Team
+Coordinated with the front end team to create a new REST API to export and import data into our solution.
+Managed five development Tomcat servers to support the team in having their own stable functional testing environment.
+Created Python scripts to help deploy packages and database updates to functional testing environments allowing more time to be spent on development. 
+Accessed and updated data stored in an Oracle database. 
+Developed new functionality and solved existing issues in Java.
+
+BIS Enterprise Application Team
+Implemented a JSON parser for a proprietary backend JavaScript engine adhering to the ECMAScript standard.
+Wrote robust JavaScript unit tests to ensure functionality and prevent regression. 
+Utilized waterfall deployment methodology. 
+Picked up three different features in the first six months to help meet the product release deadline. 
+Developed new functionality and solved existing issues in C and a proprietary assembly language.
 
 == EERC (2015 to 2016)
+Internal Application Team
+Updated an application to track lab samples that allowed researchers to quickly search and find data.
+Supported the team on fixing bugs and developing features of multiple internal Visual Basic .Net Applications.
+Worked with Microsoft SQL stored procedures to create reusable queries that could be leveraged by other applications. 
