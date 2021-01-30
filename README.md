@@ -1,7 +1,7 @@
 # My Jemdoc Site
 Easy and Simple.
 
-Using Jemdoc[http://jemdoc.jaboc.net/] allows this website to be generated fast and easy. 
+Using [Jemdoc](http://jemdoc.jaboc.net/) allows this website to be generated fast and easy. 
 
 The Travis automation allows all the static web pages to be generated when the Jemdoc code is pushed.
 
