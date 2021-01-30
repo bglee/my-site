@@ -2,11 +2,11 @@
 = Skills 
 
 == Programming Languages
-Once you know a few you know them all (or can learn them fairly quickly). The important thing is understanding concepts and patterns in different languages. So I will list my most used programming languages and my experience with them. I prefer lower level languages like C or Go but have had also had a fair bit of work that I have done with object oriented and functional languages. I have even spent some time working in assembly (a little too low for my taste).
+Once you know a few you know them all (or can learn them fairly quickly). The important thing is understanding concepts and patterns in different languages. So I will list my most used programming languages and my experience with them. I prefer lower level languages like C or Go but have a fair bit of work that I have done with object oriented and functional languages. I have even spent some time working in assembly (a little too low for my taste).
 
 - C - Out of college my first experience programming enterprise software was an application written in C. I developed new features, fixed bugs and marveled at how anyone knew where all those structs were. In this time I also became handy with the Visual Studio debugging tool and was able to find a good number of memory leaks in the application. I really enjoyed working on such a large complex application and C still stands out to me as my core programming language. 
  
-- Java -  Java is one of the languages I am most comfortable with. I have experience working on enterprise applications in Java using Spring Boot and Hibernate as well as using it for personal and academic projects. As far as OOP languages I would consider it my favorite but this may be because I haven't spent a whole lot of time working with C#. 
+- Java -  Java is one of the languages I am most comfortable with. I have experience working on enterprise applications in Java using Spring Boot and Hibernate as well as using it for personal and academic projects. As far as OOP languages I would consider it my favorite but this may be because I haven't spent a whole lot of time working with C\#. 
 
 - NodeJS - Most recently NodeJS has been my primary programming language used at work. I have found it very useful quickly building stateless microservice containers to run in Docker. I really thing NodeJS shines at building APIs to access NoSQL databases such as CouchDB.   
 
@@ -15,7 +15,7 @@ Once you know a few you know them all (or can learn them fairly quickly). The im
 
 == Tools
 
-- Docker -  I love Docker. Given the choice any new application I built would be Dockerized. I have experience building microservices in docker containers and Dockerizing existing applications. The ability to run a service with all of its dependencies installed has saved so much time and energy over the last few years.  
+- Docker -  I love Docker. Given the choice any new application I build would be Dockerized. I have experience building microservices in docker containers and Dockerizing existing applications. The ability to run a service with all of its dependencies installed has saved so much time and energy over the last few years.  
 
 - Kubernetes - The Kubernetes clusters I have maintained have mostly been Rancher Kubernetes. I have found deploying my microservices to Kubernetes with manifests to give me lots of control over the service, where it runs, what resources it uses, and HA configurations. 
    
@@ -23,6 +23,10 @@ Once you know a few you know them all (or can learn them fairly quickly). The im
 - Jenkins - I have a good amount of experience automating deployments with Jenkins. I find it has a good number of plugins that can do a lot of the work for you. I usually find myself writing minimal scripting to actually accomplish the deployment with Jenkins. I have deployed Docker containers, Kubernetes manifests, Helm charts, and Tomcat applications with Jenkins.   
 
 - Helm - To me Helm is a specialized tool that you should consider but not jump to in an instant if using Kubernetes. I think it is very powerful when used at the right place and time to package all of your Kubernetes manifests in a way that will just run on a cluster. I have used it on a few different projects with varying degrees of success. To me if I am developing a IAC environment I would prefer to use Kubernetes manifests by themselves. If I am creating an application that will be configured in a mostly similar way on every environment and does not require customization to the infrastructure then Helm would be something I would consider. This is something I have learned the hard way through experience.  
+
+== Cloud Platforms
+
+- Azure - Besides the AZ-900 cert I have also gained experience in Azure running IoT development environments which required managing multiple resources for soltuions. This includes Azure IoT Hub, Storage Acounts, VNets, Event Hubs and Stream Analytics. Even this website you are on is hosted on Azure using a storage account and a CDN you can host a one static web page in Azure for free! It even let me setup TLS certs for my custom domain name.   
 
 == Databases  
 
